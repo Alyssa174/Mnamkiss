@@ -1,0 +1,506 @@
+@media (max-width: 2100px) {
+    header {
+        height: 1200px;
+    }
+
+    .header-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .photos-slideshow img{
+        width: 80%;
+        margin-top: 0rem;
+    }
+    
+    .logoemail img{
+        width: 80%;
+    }
+    
+    .social img{
+        width: 35%;
+    }
+}
+
+
+@media (max-width: 1800px) {
+    header {
+        height: 950px;
+    }
+
+    .header-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .photos-slideshow img{
+        width: 90%;
+        margin-top: 0rem;
+    }
+
+    .logoemail img{
+        width: 90%;
+    }
+    
+    .social img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1650px) {
+    header {
+        height: 900px;
+    }
+
+    .photos-slideshow img{
+        width: 95%;
+        margin-top: 0rem;
+    }
+
+    .logoemail img{
+        width: 90%;
+    }
+
+    .social img{
+        width: 35%;
+    }
+}
+@media (max-width: 1400px) {
+    .photo-segment img {
+        max-width:560px;
+        width: 100%;
+        height: 300px;
+        opacity: 0.85;
+        transform: scale(1); 
+        border-radius: 25px;
+    }
+    
+    .photo-segment img:hover {
+        border-radius: 10px;
+        transition: transform 0.5s, opacity 0.5s;
+        transform: scale(1.05);
+        opacity: 1;
+    }
+
+    header {
+        height: 800px;
+    }
+
+    .header-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .photos-slideshow img{
+        width: 95%;
+    }
+
+    .logoemail img{
+        width: 80%;
+    }
+
+    .social img{
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .photo-segment img {
+        width: 100%;
+        height: 250px;
+    }
+
+    header {
+        height: 700px;
+    }
+
+    .header-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .photos-slideshow img{
+        width: 100%;
+    }
+
+    .footer-photo-segment li {
+        list-style-type: none;
+        display: inline-block;
+        height: 100px;
+    }
+    
+    .footer-photo-segment img {
+        max-width:560px;
+        height: 60px;
+    }
+    
+    .logo-footer img{
+        transform: rotate(-10deg);
+        width: auto;
+        height: 80px;
+    }
+
+    .logoemail img{
+        width: 90%;
+    }
+
+    .social img{
+        width: 40%;
+    }
+    
+}
+
+@media (max-width: 1050px) {
+    .navbar-links ul li a img{
+        height: 56px;
+    }
+
+    .photos-slideshow {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        transform: translate(0%,10%);
+    }
+
+    .photo-segment img {
+        width: 100%;
+        height: 250px;
+    }
+
+    header {
+        height: 750px;
+    }
+
+    .header-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .photos-slideshow img{
+        width: 80%;
+    }
+
+    .text-cake img {
+        margin-bottom: .5rem;
+        height: 8rem;
+    }
+    
+    .text-cake p {
+        padding: 5%;
+        font-size: 1.2rem;
+    }
+    
+    
+    .footer-photo-segment img {
+        max-width:560px;
+        height: 60px;
+        margin: 5%;
+    }
+
+    .logoemail img{
+        width: 90%;
+    }
+
+    .social img{
+        width: 45%;
+        margin-left: 40%;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .photo-segment li {
+        width: 100%;
+    }    
+
+    .photo-segment img {
+        width: 90%;
+        height: auto;
+    }
+
+    .photos-slideshow img{
+        width: 90%;
+        margin-top: 3rem;
+    }
+
+    .footer-photo-segment img {
+        max-width:560px;
+        height: 50px;
+        margin: 5%;
+    }
+    .logoemail img{
+        width: 90%;
+    }
+
+    .social img{
+        width: 45%;
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        width: 100%;
+    }
+
+    .header-box {
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: inline-flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        height: 25px;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .navbar-links ul li {
+        text-align: right;
+        height: 50px;
+        padding: .2rem;
+    }
+
+    .navbar-links ul li a img{
+        height: 40px;
+        transform: translate(100%,0%);
+    }
+
+    .navbar-links.active {
+        display: inline-flex;
+        text-decoration: none;
+        border-bottom: 2px transparent;
+    }
+
+    .navbar-links.hover {
+        display: inline-flex;
+        text-decoration: none;    
+        border-bottom: 2px transparent;
+    }
+    .navbar-links ul li a:link{
+        display: inline-flex;
+        text-decoration: none;
+        border-bottom: 2px transparent;
+    }
+
+    .navbar-links ul li a:visited{
+        display: inline-flex;
+        text-decoration: none;
+        border-bottom: 2px transparent;
+    }
+
+    .photos-slideshow {
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        width: 100%;
+        transform: translate(0%,10%);
+    }
+
+    .photo-segment li {
+        width: 100%;
+    }    
+
+    .photo-segment img {
+        width: 90%;
+        height: auto;
+    }
+    header {
+        height: 600px;
+    }
+
+    .header-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .photos-slideshow img{
+        width: 80%;
+        margin-top: 4rem;
+    }
+    .text-cake img {
+        margin-bottom: .5rem;
+        height: 6rem;
+    }
+    
+    .text-cake p {
+        padding: 3%;
+        font-size: 1.2rem;
+    }
+
+    .footer-photo-segment img {
+        max-width:560px;
+        height: 45px;
+        margin: 5%;
+    }
+    .logoemail img{
+        width: 90%;
+        margin-top: 40%;
+    }
+
+    .social img{
+        width: 50%;
+        margin-left: 40%;
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 650px) {
+    header {
+        height: 500px;
+    }
+
+    .header-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .photos-slideshow img{
+        width: 75%;
+        margin-top: 4rem;
+    }
+
+    .col.span-1-of-3.one-tick {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .cake-info{
+        height: 1100px;
+        padding: 2rem 1rem 2rem 1rem;
+        }
+
+    .text-cake img {
+        margin-bottom: .5rem;
+        height: 7rem;
+    }
+        
+    .text-cake p {
+        padding: 3%;
+        font-size: 1.4rem;
+    }
+
+    .footer-photo-segment img {
+        max-width:560px;
+        height: 45px;
+        margin: 5%;
+    }
+    .logoemail img{
+        width: 100%;
+        margin-top: 50%;
+    }
+
+    .social img{
+        width: 60%;
+        margin-left: 40%;
+        margin-top: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        height: 450px;
+    }
+
+    .header-box {
+        width: 100%;
+        height: 100%;
+   }
+
+   .photos-slideshow img{
+        width: 85%;
+        margin-top: 5rem;
+    }
+
+    .navbar-links ul li {
+        text-align: right;
+        height: 35px;
+        padding: .2rem;
+    }
+    .navbar-links ul li a img{
+        height: 30px;
+        transform: translate(100%,0%);
+    }
+
+    .footer-photo-segment img {
+        max-width:560px;
+        height: 35px;
+        margin: 5%;
+    }
+    .logoemail img{
+        width: 110%;
+        margin-top: 60%;
+    }
+
+    .social img{
+        width: 50%;
+        margin-left: 40%;
+        margin-top: 60%;
+    }
+
+}
+
+@media (max-width: 370px) {
+    header {
+        height: 400px;
+    }
+
+    .header-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .photos-slideshow img{
+        width: 95%;
+        margin-top: 7rem;
+    }
+
+    .cake-info{
+        height: 1700px;
+        padding: 2rem 1rem 2rem 1rem;
+        }
+
+        .text-cake img {
+            margin-bottom: .5rem;
+            height: 6rem;
+        }
+        
+        .text-cake p {
+            padding: 3%;
+            font-size: 1.2rem;
+        }
+
+        .footer-photo-segment img {
+            max-width:560px;
+            height: 25px;
+            margin: 5%;
+        }
+        .logoemail img{
+            width: 110%;
+            margin-top: 80%;
+        }
+    
+        .social img{
+            width: 50%;
+            margin-left: 40%;
+            margin-top: 80%;
+        }
+}

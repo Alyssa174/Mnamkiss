@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+/***** REUSABLE *****/
+.row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row2 {
+    width: 70%;
+    margin: 0px auto;
+}
+
+/***** HEADER *****/
+header {
+    background: linear-gradient(90deg, rgba(205,99,121,0.75) 25%, rgba(255,221,0,0.75) 75%);
+    background-size: cover;
+    height: 60vh;
+}
+
+.header-box {
+    width: 100%;
+    height: 100%;
+    background: url(../css/img/background/drops4.png);
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; stekanie kremu pri scrollovani*/
+}
+
+.header-box p {
+    color:rgb(40, 40, 40);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 5rem;
+}
+
+.bar-holder {
+    width: 50%;
+    background-color: rgba(219, 217, 217, 0.541);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 16rem;
+}
+
+/* INDIVIDUAL BAR'S STYLING, SAME GOES WITH OTHER BARS */
+
+.bar-2 {
+    width: 50%;
+    color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    background-image: linear-gradient(90deg, rgba(205,99,121,0.75) 25%, rgba(255,221,0,0.75) 75%);
+    color:rgb(40, 40, 40);
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+.footer-text {
+    text-align: center;
+    color:rgb(40, 40, 40);
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}

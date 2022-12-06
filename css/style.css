@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+/***** REUSABLE *****/
+.row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row2 {
+    width: 70%;
+    margin: 0px auto;
+}
+
+
+.heading-main h2 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 8rem;
+    padding-bottom: .5rem;
+    color:rgb(40, 40, 40);
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5rem;
+}
+
+.heading-main h2:after {
+    content: "";
+    display:block;
+    width: 300px;
+    border-bottom: 2px solid rgb(153, 49, 71);
+    margin: 3px auto;
+}
+
+
+/***** HEADER *****/
+header {
+    background: linear-gradient(90deg, rgba(205,99,121,0.75) 25%, rgba(255,221,0,0.75) 75%);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-box {
+    width: 100%;
+    height: 100%;
+    margin-top: 0rem;
+    background: url(img/background/drops4.png);
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img{
+    display: block;
+    position: absolute;
+    top: -20%;
+    width: 30%;
+    transform: rotate(-10deg);
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 2rem;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links ul li a img{
+    max-height: 70px;
+}
+
+.navbar-links ul li a:link,
+.navbar-links ul li a:visited {
+    display: block;
+    padding: .7rem;    
+    text-decoration: none;
+    border-bottom: 2px transparent;
+}
+
+.navbar-links ul li a:hover,
+.navbar-links ul li a:active {
+    display: block;
+    padding: .7rem; 
+    text-decoration: none;
+    transition: all 0.5s;
+    color:rgb(153, 49, 71);
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(153, 49, 71);
+}
+
+.toggle-button {
+    position: absolute;
+    top: .3rem;
+    right: .1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 3rem;
+    height: 1.2rem;
+    color: rgb(153, 49, 71);
+}
+.toggle-button::after,
+.toggle-button::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px;
+    background: currentColor;
+    border-radius: 25px;
+}
+.toggle-button::before {
+    width: 1.5rem;
+    box-shadow: 0 -.25rem 0,0 -.5rem 0;
+    left: .5rem;
+    bottom: .1rem;
+}
+.toggle-button::after {
+    width: .3rem;
+    height: .3rem;
+    left: 1.1rem;
+}
+
+.photos-slideshow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    transform: translate(0%,20%);
+}
+
+.photos-slideshow img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/***** ABOUT US *****/
+
+/***** ABOUT US TEXT *****/
+
+.about-us {
+    background: linear-gradient(90deg, rgba(205,99,121,0.75) 25%, rgba(255,221,0,0.75) 75%);
+    background-size: cover;
+    color:rgb(40, 40, 40);
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+    word-spacing: 0.1rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.about-us-wave {
+    background: url(img/background/paint3.png);
+    background-size: inherit;
+    background-repeat: no-repeat;
+}
+
+.quote{
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    display: inline-block;
+}
+
+.subquote {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+    font-style: italic;
+}
+
+.photo-name img {
+    width: 12%;
+    float: right;
+    background: transparent;
+}
+
+.story .icon img {
+    width: 100%;
+    background: transparent;
+    opacity: 35%;
+    padding-bottom: 6rem;
+}
+
+/***** PHOTO GALERY *****/
+.photos {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.photo-segment ul {
+    width: auto;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-segment li {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0.1rem;
+    margin: auto;
+	text-align: center;
+}
+
+.photo-segment img {
+    justify-content: center;
+    max-width:560px;
+    width: 100%;
+    height: 300px;
+    opacity: 0.85;
+    transform: scale(1); 
+    border-radius: 25px;
+}
+
+.photo-segment img:hover {
+    border-radius: 10px;
+    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+/***** OUR CAKE *****/
+.our-cake {
+    background: linear-gradient(90deg, rgba(205,99,121,0.75) 25%, rgba(255,221,0,0.75) 75%);
+    background-size: cover;
+    color:rgb(40, 40, 40);
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: .8rem;
+    letter-spacing: .05rem;
+    word-spacing: 0.1rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.our-cake-wave {
+    background: url(img/background/paint3.png);
+    background-size: inherit;
+    background-repeat: no-repeat;
+}
+
+.cake-info{
+height: 500px;
+padding: 2rem 1rem 2rem 1rem;
+}
+
+.text-cake img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    height: 10rem;
+}
+
+.text-cake p {
+    padding: 5%;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* FOOTER */
+.footer-page {
+    background: #ffffff;
+}
+
+.footer-photo-segment {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-photo-segment li {
+    list-style-type: none;
+    display: inline-block;
+    height: 120px;
+}
+
+.footer-photo-segment img {
+    max-width:560px;
+    height: 80px;
+    margin: 5%;
+}
+
+.logo-footer img{
+    transform: rotate(-10deg);
+    width: auto;
+    height: 80px;
+    margin: 0;
+}
+
+.logoemail img{
+    width: 50%;
+}
+
+.social img{
+    width: 25%;
+    margin-left: 40%;
+}
+
+.footer-text {
+    text-align: center;
+    color:rgb(40, 40, 40);
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+
+/***** STOP FLOATING *****/
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
